@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "EVENT MNGMT", "EVENT MNGMT.exe", "{56AE2291-41E1-460A-915E-060CDBFECE31}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = H:\EVENT MANAGEMENT SYSTEM\Source Code\EVENT MNGMT\EVENT MNGMT.exe
+		RemoteMachine = 007-F4FED5AEE3
+		StartingDirectory = H:\EVENT MANAGEMENT SYSTEM\Source Code\EVENT MNGMT
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56AE2291-41E1-460A-915E-060CDBFECE31}.Debug|Default.ActiveCfg = Debug
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

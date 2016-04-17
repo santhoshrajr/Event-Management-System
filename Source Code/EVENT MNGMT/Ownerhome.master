@@ -1,0 +1,176 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Ownerhome.master.cs" Inherits="Ownerhome" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<!-- ImageReady Preload Script (club.psd) -->
+<SCRIPT TYPE="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		club_09_over = newImage("images/club_09-over.jpg");
+		club_10_over = newImage("images/club_10-over.jpg");
+		club_11_over = newImage("images/club_11-over.jpg");
+		club_12_over = newImage("images/club_12-over.jpg");
+		club_13_over = newImage("images/club_13-over.jpg");
+		club_14_over = newImage("images/club_14-over.jpg");
+		club_15_over = newImage("images/club_15-over.jpg");
+		club_16_over = newImage("images/club_16-over.jpg");
+		club_17_over = newImage("images/club_17-over.jpg");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</SCRIPT>
+<!-- End Preload Script -->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 189px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table border="0" align="center" cellpadding="0" cellspacing="0" 
+        style="height: 187px; width: 796px">
+  <tr>
+    <td class="style1">
+        <img src="images/template.jpg" style="width: 789px; height: 226px" /><table 
+            border="0" align="center" 
+            cellpadding="0" cellspacing="0" 
+            background="images/club_07.jpg" 
+            style="width: 782px; height: 33px; margin-left: 0px; margin-top: 0px">
+  <tr>
+    <td width="4">&nbsp;</td>
+   
+  </tr>
+</table>
+      </td>
+    <td width="109">&nbsp;</td>
+    <td width="155">&nbsp;</td>
+  </tr>
+</table>
+<table border="0" align="center" cellpadding="0" cellspacing="0" 
+            background="images/club_20.jpg" style="width: 797px">
+  <tr>
+    <td width="4"><img src="images/club_20.jpg" width="4" height="26"></td>
+    <td width="82"><IMG SRC="images/club_22.jpg" ALT="" WIDTH=82 HEIGHT=26 hspace="50"></td>
+    <td>&nbsp;&nbsp;<asp:Button ID="Button1" runat="server" BackColor="#0066CC" 
+            Text="Home" onclick="Button1_Click" />
+&nbsp;&nbsp;
+        <asp:Button ID="Button2" runat="server" BackColor="#0066CC" 
+            Text="NewHall" onclick="Button2_Click" />
+&nbsp;&nbsp;
+        <asp:Button ID="Button3" runat="server" BackColor="#0066CC" Text="logout" 
+            onclick="Button3_Click" />
+      &nbsp;
+        &nbsp;
+        &nbsp;&nbsp;&nbsp;
+        </td>
+  </tr>
+</table>
+<table width="775" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="196" height="560" valign="top" bgcolor="81A3Af"><table border="0" 
+            cellspacing="0" cellpadding="0" style="width: 163px">
+        <tr>
+          <td>
+              <img src="images/yutufttfhh.jpg" style="width: 100px; height: 138px" /><img 
+                  src="images/ertytytytytytyttttttttttttttttttttt.jpg" 
+                  style="width: 94px; height: 137px" /></td>
+        </tr>
+        <tr>
+          <td height="20" bgcolor="#FF6699" style="color: #0000FF">We are encouraging web.....</td>
+        </tr>
+        <tr>
+          <td bgcolor="0A5693"><IMG SRC="images/club_39.jpg" ALT="" WIDTH=50 HEIGHT=24 hspace="7"></td>
+        </tr>
+        <tr>
+          <td><font color="#003366" size="1" face="Verdana, Arial, Helvetica, sans-serif">
+              &nbsp;&nbsp; &nbsp;</font></td>
+        </tr>
+        <tr>
+          <td width="195" height="60" align="center" valign="top"><div align="left">
+              <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="40" align="left" valign="top"><div align="left"></div></td>
+                </tr>
+              </table>
+            </div></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center" valign="top"><IMG SRC="images/club_48.jpg" WIDTH=5 HEIGHT=5 ALT=""></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top">&nbsp;</td>
+        </tr>
+      </table></td>
+    <td width="28">
+        <img src="images/Untitled-1.jpg" style="width: 29px; height: 558px" /></td>
+    <td width="551" valign="top" bgcolor="DBDAD0">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </td>
+  </tr>
+</table>
+<table width="775" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="20" align="center" valign="middle" bgcolor="#FFCCCC"><font color="#333333" size="1" face="Verdana, Arial, Helvetica, sans-serif">
+        HOME&nbsp; &nbsp;&nbsp;&nbsp;SHOPPING&nbsp;&nbsp;&nbsp;&nbsp; PROFILE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MY MATCH &nbsp;&nbsp;&nbsp;&nbsp;OPTION&nbsp;&nbsp;&nbsp;&nbsp; MY PAGE&nbsp;&nbsp;&nbsp;&nbsp; ABOUT 
+        US&nbsp;&nbsp;&nbsp;&nbsp; CONTACT US&nbsp;&nbsp; &nbsp;&nbsp;FAQbsp;&nbsp; &nbsp;&nbsp;FAQsp;&nbsp;FAQ</font></td>
+  </tr>
+  <tr>
+    <td height="20" align="center" valign="middle"><font color="#333333" size="1" face="Verdana, Arial, Helvetica, sans-serif">
+        Copyright © 2003-2004 WebClub.com,All right reserved.</font></td>
+  </tr>
+</table>
+    <div>
+       
+    </div>
+    </form>
+</body>
+</html>
